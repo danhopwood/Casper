@@ -1261,17 +1261,15 @@ body:not(.post-template) .post-title {
     text-decoration: none;
 }
 
-/*
-.post-footer .share .icon-twitter:hover {
+.author-meta .icon-twitter:hover {
     color: #55acee;
 }
-.post-footer .share .icon-facebook:hover {
+.author-meta .icon-facebook:hover {
     color: #3b5998;
 }
-.post-footer .share .icon-google-plus:hover {
+/*.post-footer .share .icon-google-plus:hover {
     color: #dd4b39;
-}
-*/
+}*/
 
 /* ==========================================================================
    6. Author profile
@@ -1683,7 +1681,7 @@ body:not(.post-template) .post-title {
 }
 
 .gh-subscribe .subscribe-email:focus {
-    border: #5ba4e5 1px solid;
+    border: #fa605e 1px solid;
     transition: all ease 0.2s;
 }
 
