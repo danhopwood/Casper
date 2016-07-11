@@ -65,3 +65,12 @@ button {
 .share-btn.reddit { background: #ff5700; }
 .share-btn.linkedin    { background: #4875B4; }
 .share-btn.email { background: #444444; }
+
+#author-subtitle {
+  font-family: "Merriweather", serif;
+  letter-spacing: 0.01rem;
+  font-size: 1.7rem;
+  font-style: italic;
+  color: #9EABB3;
+  margin: 0 0 1.75em 0;
+}
