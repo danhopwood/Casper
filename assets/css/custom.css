@@ -6,7 +6,7 @@ button {
   background: #fa605e;
 }
 
-.btn {
+.cta-btn {
   min-height: 35px;
   width: auto;
   display: inline-block;
@@ -29,7 +29,7 @@ button {
   margin: 0 0 1.75em 0;
 }
 
-.btn:hover {
+.cta-btn:hover {
   color: #ffffff;
   background: #fb8181;
 }
