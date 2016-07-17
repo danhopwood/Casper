@@ -62,14 +62,19 @@
             <section class="share">
                 <h4>Share this trip</h4>
 
-                <a class="icon-twitter share-btn twitter" href="https://twitter.com/intent/tweet?text={{encode title}}{{encode " by "}}{{#if author.twitter}}{{author.twitter}}{{else}}{{encode author.name}}{{/if}}&amp;url={{url absolute="true"}}&via=CaseyTravel"
+                <a class="share-btn twitter" href="https://twitter.com/intent/tweet?text={{encode title}}{{encode " by "}}{{#if author.twitter}}{{author.twitter}}{{else}}{{encode author.name}}{{/if}}&amp;url={{url absolute="true"}}&via=CaseyTravel"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                    <span class="hidden">Twitter</span>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
-                <a class="icon-facebook share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                <a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
                     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                    <span class="hidden">Facebook</span>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
+                <a class="share-btn pinterest" data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url={{url absolute="true"}}&media={{image absolute="true"}}&description={{encode title}}" data-pin-custom="true"
+                    onclick="window.open(this.href, 'pinterest-share','width=750,height=600');return false;">
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                </a>
+
                 {{!-- <a class="icon-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
