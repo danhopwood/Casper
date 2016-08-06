@@ -53,9 +53,9 @@
                 {{/if}}
                 <div class="author-meta">
                     {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
-                    {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
-                    {{#if twitter}}<span class="author-link"><a class="icon-twitter" href="{{twitter_url}}"></a></span>{{/if}}
-                    {{#if facebook}}<span class="author-link"><a class="icon-facebook" href="{{facebook_url}}"></a></span>{{/if}}
+                    {{#if website}}<span class="icon-link"><a class="trip-traveller-link" data-link-type="Website" href="{{website}}">{{website}}</a></span>{{/if}}
+                    {{#if twitter}}<span><a class="trip-traveller-link icon-twitter" data-link-type="Twitter" href="{{twitter_url}}"></a></span>{{/if}}
+                    {{#if facebook}}<span><a class="trip-traveller-link icon-facebook" data-link-type="Facebook" href="{{facebook_url}}"></a></span>{{/if}}
                 </div>
             </section>
 
