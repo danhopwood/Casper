@@ -1,3 +1,37 @@
+.section-subscribe-form {
+
+}
+
+.section-subscribe-form form {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+
+.section-subscribe-form .form-group {
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.section-subscribe-form .subscribe-email {
+    box-sizing: border-box;
+    font-size: 1.9rem;
+    width: 100%;
+    margin: 0;
+    border-radius: 4px 0 0 4px;
+    transition: all ease 0.5s;
+}
+
+.section-subscribe-form .subscribe-email:focus {
+    border: #fa605e 1px solid;
+    transition: all ease 0.2s;
+}
+
+.section-subscribe-form button {
+    margin-left: -1px;
+    border-radius: 0 4px 4px 0;
+}
+
 a:hover {
     color: #fa605e;
 }

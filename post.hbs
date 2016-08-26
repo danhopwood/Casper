@@ -24,7 +24,7 @@
                 {{!-- <time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time> --}}
                 {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="{{author.name}}" nopin="nopin" />{{/if}}
                 {{author}}
-                {{tags prefix=" | "}}
+                {{!-- {{tags prefix=" | "}} --}}
             </section>
         </header>
 
@@ -86,9 +86,12 @@
             {{!-- Email subscribe form at the bottom of the page --}}
             {{#if @labs.subscribers}}
             <section class="gh-subscribe">
-                <h3 class="gh-subscribe-title">Want to travel more?</h3>
-                <p>Subscribe and get the latest travels delivered right to your inbox.</p>
-                {{subscribe_form placeholder="Your email address"}}
+                <h3 class="gh-subscribe-title">Looking for a new adventure?</h3>
+                <p>Receive an email once a week with a real and recommended trip.</p>
+                {{subscribe_form
+                  form_class="form-subscribe"
+                  placeholder="Your email address"
+                }}
                 <span class="gh-subscribe-rss">or subscribe <a href="http://cloud.feedly.com/#subscription/feed/{{@blog.url}}/rss/">via RSS</a> with Feedly!</span>
             </section>
             {{/if}}
