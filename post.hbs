@@ -83,18 +83,19 @@
                 </a> --}}
             </section>
 
-            {{!-- Email subscribe form at the bottom of the page --}}
-            {{#if @labs.subscribers}}
             <section class="gh-subscribe">
                 <h3 class="gh-subscribe-title">Looking for a new adventure?</h3>
                 <p>Receive an email once a week with a real and recommended trip.</p>
-                {{subscribe_form
-                  form_class="form-subscribe"
-                  placeholder="Your email address"
-                }}
-                <span class="gh-subscribe-rss">or subscribe <a href="http://cloud.feedly.com/#subscription/feed/{{@blog.url}}/rss/">via RSS</a> with Feedly!</span>
+                <form method="post" action="//caseytravel.us13.list-manage.com/subscribe/post?u=25865618789c4a52920d573ff&amp;id=d3893ec3f7" class="form-subscribe" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
+                    <div class="form-group">
+                        <input id="mce-EMAIL" class="subscribe-email" type="email" name="EMAIL" placeholder="Type your email">
+                    </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_25865618789c4a52920d573ff_d3893ec3f7" tabindex="-1" value=""></div>
+                    <button type="submit">Subscribe</button>
+                </form>
+                {{!-- <span class="gh-subscribe-rss">or subscribe <a href="http://cloud.feedly.com/#subscription/feed/{{@blog.url}}/rss/">via RSS</a> with Feedly!</span> --}}
             </section>
-            {{/if}}
 
         </footer>
 
