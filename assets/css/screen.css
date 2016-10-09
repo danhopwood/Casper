@@ -1632,7 +1632,7 @@ body:not(.post-template) .post-title {
 
 /* On page2+ make all the headers smaller */
 .archive-template .main-header {
-    max-height: 30vh;
+    max-height: 55vh;
 }
 
 /* On page2+ show extra pagination controls at the top of post list */
