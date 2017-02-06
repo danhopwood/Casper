@@ -5,7 +5,7 @@
 
 {{!-- This is the post loop - each post will be output using this markup --}}
 {{#foreach posts}}
-    {{#is "home"}}
+    {{#is "index"}}
         {{#has tag="Hidden"}}
         {{else}}
             <article class="{{post_class}}">

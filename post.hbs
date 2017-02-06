@@ -29,7 +29,15 @@
         </header>
 
         <section class="post-content">
+            <p><a class="request-quote-btn cta-btn" href="https://caseytravel.com/request-quote/?typeform-welcome=0">Request a quote for this trip</a></p>
+
             {{content}}
+
+            <p><a class="request-quote-btn cta-btn" href="https://caseytravel.com/request-quote/?typeform-welcome=0">Request a quote for this trip</a></p>
+
+            {{#has tag="Comments"}}
+                <p><strong>Questions?</strong> Feel free to ask me anything in the comments below!</p>
+            {{/has}}
         </section>
 
         <footer class="post-footer">
