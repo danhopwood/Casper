@@ -1,0 +1,28 @@
+div.casey-quote-button-container {
+  margin: 35px 0 !important;
+}
+
+.casey-cta-btn {
+  min-height: 35px !important;
+  width: auto !important;
+  padding: 10px 15px !important;
+  cursor: pointer !important;
+  outline: none !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  text-align: center !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  text-shadow: none !important;
+  border-radius: 3px !important;
+  border: rgba(0,0,0,0.05) 1px solid !important;
+  background: #fa605e !important;
+}
+
+.casey-cta-btn:hover {
+  color: #ffffff !important;
+  background: #fb8181 !important;
+}
