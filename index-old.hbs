@@ -11,12 +11,12 @@
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">Turn your blog posts into<br>bookable trips</h1>
-            <h2 class="page-description">Your friends and followers would love to book your awesome trips.<br>Casey makes this possible and pays you each time they do.</h2>
+            <h1 class="page-title">Get paid for sharing your amazing travel experiences</h1>
+            <h2 class="page-description">Casey packages your unique trips and makes them bookable by your friends and followers.</h2>
             <section class="section-subscribe-form">
                 <form method="post" action="//caseytravel.us13.list-manage.com/subscribe/post?u=25865618789c4a52920d573ff&amp;id=d3893ec3f7" class="form-subscribe" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
                     <div class="form-group">
-                        <input id="mce-EMAIL" class="subscribe-email" type="email" name="EMAIL" autofocus="true" placeholder="Subscribe for updates">
+                        <input id="mce-EMAIL" class="subscribe-email" type="email" name="EMAIL" autofocus="true" placeholder="Type your email">
                     </div>
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_25865618789c4a52920d573ff_d3893ec3f7" tabindex="-1" value=""></div>
@@ -31,13 +31,7 @@
 {{!-- The main content area on the homepage --}}
 <main id="content" class="content" role="main">
 
-    <article class="{{post_class}}">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/how-it-works/">How it works</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Find out just how simple it is to work with Casey.. <a class="read-more" href="/how-it-works/">&raquo;</a></p>
-        </section>
-    </article>
+    {{!-- The tag below includes the post loop - partials/loop.hbs --}}
+    {{> "loop"}}
 
 </main>

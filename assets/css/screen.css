@@ -947,6 +947,7 @@ body.nav-opened .nav {
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     color: #fff;
+    max-width: 690px;
 }
 
 .page-description {
@@ -2006,7 +2007,7 @@ body:not(.post-template) .post-title {
     }
 
     .page-title {
-        font-size: 2.9rem;
+        font-size: 2.6rem;
     }
 
     .post-excerpt p {

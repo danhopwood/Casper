@@ -6,13 +6,13 @@ var init = init || function() {
       maybeLoadGA();
 
       // track pageview
-      ga('create', 'UA-38450727-3', 'auto', 'caseyTracker');
+      ga('create', 'UA-93978179-1', 'auto', 'caseyTracker');
       ga('caseyTracker.send', 'pageview');
-
-      // create buttons
-      var url = jQuery(".casey-quote-button-container").data("url");
-      var buttonCopy = jQuery(".casey-quote-button-container").data("buttonCopy");
-      jQuery(".casey-quote-button-container").append('<a class="casey-cta-btn" target="_blank" href="' + url + '">' + buttonCopy + '</a>');
+      
+      // inject css
+      var fileName = 'https://caseytravel.com/quote-button/0.1.0/casey.quote-button.css';
+      var link = '<link rel="stylesheet" type="text/css" href="' + fileName + '">';
+      jQuery('head').append(link);
 
       // track button clicks
       jQuery(".casey-cta-btn").click(function() {
